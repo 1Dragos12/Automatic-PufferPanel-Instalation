@@ -3,7 +3,9 @@
 ## Usage for Ubuntu
 
 ```bash
+chmod +x installpufferpanel.sh
 ./installpufferpanel.sh < YOUR VPS PUBLIC IP >
+e.g: ./installpufferpanel.sh 192.168.1.1
 ```
 
 ## Contributing
