@@ -11,6 +11,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get install nano wget curl -y
 sudo apt-get install default-jre -y
 sudo apt-get install lib32gcc1 -y
+sudo apt-get install openjdk-8-jre -y
 sudo apt-get install openjdk-15-jre -y
 sudo apt-get install openjdk-16-jre -y
 sudo apt-get install openjdk-17-jre -y
@@ -69,7 +70,7 @@ certbot --nginx -d $1
 
 sudo pufferpanel user add
 
-echp "======================================================"
-echp "                 YOUR PANEL IP IS http://${IP}        "
-echp "======================================================"
+echo "======================================================"
+echo "                 YOUR PANEL IP IS http://${IP}        "
+echo "======================================================"
 
